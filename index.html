@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <title>Build a Personal Portfolio Webpage</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -19,8 +27,79 @@
     </section>
     <nav id="portfolio">
       <ul>
-        <li></li>
+        <li>
+          <a href="#about" target="_blank">About</a>
+        </li>
+        <li>
+          <a href="#experience" target="_self">Experience</a>
+        </li>
+        <li>
+          <a href="#projects" target="_self" >Projects</a>
+        </li>
+        <li>
+          <a href="#contacts" target="_self">Contact us</a>
+        </li>
       </ul>
     </nav>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading"><strong>About Rabia and Jeanne</h2>
+          </div>
+          <div class="col-md-8">
+            <p>Rabia and Jeanne d'Arc want to be Software Developers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End #about-->
+
+    <div id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading"><strong>EXperience</h2>
+          </div>
+          <div id="experience-timeline">
+            <h3>Software Engineering Career</h3>
+            <h4>Backend Software Engineer and WordPress Developer</h4>
+            <p>Responsiblities for Rabia and Jeanne d'Arc:</p>
+            <ol>
+              <li>Writing Scalable codes</li>
+              <li>Writing codes with WordPress</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- End #experience-->
+     <div id="projects">
+      <div class="project-title">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading"><strong> List of Projetcs:</h2>
+              <ol>
+                <li>BEAUTY CENTER</li>
+                <img src="images/beauty (1).png">
+                <p>  Aynur beauty salon provides you with special skin care and epilation services.
+                  and regional weight loss</p>
+                <p>  To view this project, click on the link below:
+                  <a href="https://rabiadogano.wixsite.com/rabiadogan">View Project</a>
+                   </p>
+                <li>Africa Digital Epidemiology Innovation Network.</li>
+                <img src="images/adein.png">
+                <p>  A community that provides an opportunity for members to lend their expertise and resources, to collaborate and conduct research for various projects in epidemiology.</p>
+                <p>  To view this project, click on the link below:
+                  <a href="https://adeinetwork.org/">View Project</a>
+                   </p>
+              </ol>
+          </div>
+          
+        </div>
+      </div>
+    </div>
   </body>
 </html>

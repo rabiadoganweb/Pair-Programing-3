@@ -15,14 +15,11 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="js/index.js"></script>
-
     <section id="welcome-section">
       <h1>Hey I am Mimic</h1>
     </section>
     <section id="projects">
-      <h1 class="project-tile">a web developer</h1>
+      <h1 class="project-tile">Mimic and Jeabbe d'Arc Portfolio</h1>
       <link href="https://github.com/rabiadoganweb/Pair-Programing-3.git" />
     </section>
     <nav id="portfolio">
@@ -60,16 +57,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2 class="heading"><strong>EXperience</h2>
+            <h2 class="heading"><strong>Experience</h2>
           </div>
           <div id="experience-timeline">
             <h3>Software Engineering Career</h3>
             <h4>Backend Software Engineer and WordPress Developer</h4>
             <p>Responsiblities for Rabia and Jeanne d'Arc:</p>
-            <ol>
-              <li>Writing Scalable codes</li>
-              <li>Writing codes with WordPress</li>
-            </ol>
+            <div>
+              
+                <li>Writing Scalable codes</li>
+                <li>Writing codes with WordPress</li>
+              
+            </div>
+            
           </div>
         </div>
       </div>
@@ -81,25 +81,56 @@
         <div class="row">
           <div class="col-md-4">
             <h2 class="heading"><strong> List of Projetcs:</h2>
-              <ol>
+              <div id="project-list">
                 <li>BEAUTY CENTER</li>
-                <img src="images/beauty (1).png">
-                <p>  Aynur beauty salon provides you with special skin care and epilation services.
-                  and regional weight loss</p>
+                <img id="project-image" src="images/beauty (1).png" style="width:100%">
+                <figcaption>Aynur beauty salon provides you with special skin care and epilation services.
+                  and regional weight loss</figcaption>
+                
                 <p>  To view this project, click on the link below:
                   <a href="https://rabiadogano.wixsite.com/rabiadogan">View Project</a>
                    </p>
                 <li>Africa Digital Epidemiology Innovation Network.</li>
-                <img src="images/adein.png">
-                <p>  A community that provides an opportunity for members to lend their expertise and resources, to collaborate and conduct research for various projects in epidemiology.</p>
+                <img id="project-image" src="images/adein.png" style="width:100%">
+                <figcaption>A community that provides an opportunity for members to lend their expertise and resources, to collaborate and conduct research for various projects in epidemiology.</figcaption>
                 <p>  To view this project, click on the link below:
                   <a href="https://adeinetwork.org/">View Project</a>
                    </p>
-              </ol>
+              </div>
           </div>
           
         </div>
       </div>
     </div>
+
+     <!-- End #education -->
+     <div id="contact">
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/njoanc@gmail.com">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- End #contact -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
+
   </body>
 </html>
